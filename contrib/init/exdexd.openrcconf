@@ -1,0 +1,26 @@
+# /etc/conf.d/exdexd: config file for /etc/init.d/exdexd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/exdex/exdex.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/exdexd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/exdexd.pid"
+
+# Where to write exdexd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/exdexd"
+
+# User and group to own exdexd process
+#BITCOIND_USER="exdex"
+#BITCOIND_GROUP="exdex"
+
+# Path to exdexd executable
+#BITCOIND_BIN="/usr/bin/exdexd"
+
+# Nice value to run exdexd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
